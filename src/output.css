@@ -554,6 +554,34 @@ video {
   --tw-contain-style:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.ml-\[\] {
+  margin-left: ;
+}
+
+.ml-\[139px\] {
+  margin-left: 139px;
+}
+
+.ml-\[13\] {
+  margin-left: 13;
+}
+
+.ml-\[138\] {
+  margin-left: 138;
+}
+
+.ml-\[138px\] {
+  margin-left: 138px;
+}
+
 .flex {
   display: flex;
 }
@@ -578,6 +606,10 @@ video {
   height: 600px;
 }
 
+.h-60 {
+  height: 15rem;
+}
+
 .w-4 {
   width: 1rem;
 }
@@ -594,6 +626,22 @@ video {
   width: 0.75rem;
 }
 
+.w-\[\] {
+  width: ;
+}
+
+.w-\[480px\] {
+  width: 480px;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.content-center {
+  align-content: center;
+}
+
 .content-between {
   align-content: space-between;
 }
@@ -604,6 +652,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
@@ -659,6 +711,28 @@ video {
   background-color: url{};
 }
 
+.bg-transparent {
+  background-color: transparent;
+}
+
+.bg-\[\#d5d5d5\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(213 213 213 / var(--tw-bg-opacity));
+}
+
+.bg-\[3e3d3d\] {
+  background-color: 3e3d3d;
+}
+
+.bg-\[\#3e3d3d\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(62 61 61 / var(--tw-bg-opacity));
+}
+
+.bg-\[rgba\(62\2c 61\2c 61\2c 0\.5\)\] {
+  background-color: rgba(62,61,61,0.5);
+}
+
 .bg-\[url\(\)\] {
   background-image: url();
 }
@@ -671,12 +745,24 @@ video {
   background-image: url('https://www.up.pt/portal/media/images/estudantes-icbas-lab-2024.format-jpeg.jpg');
 }
 
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
 .fill-white {
   fill: #fff;
 }
 
 .fill-gray-400 {
   fill: #9ca3af;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .px-32 {

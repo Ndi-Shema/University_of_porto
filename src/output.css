@@ -746,6 +746,18 @@ video {
   height: 2.75rem;
 }
 
+.h-\[113px\] {
+  height: 113px;
+}
+
+.h-\[574px\] {
+  height: 574px;
+}
+
+.h-\[574\] {
+  height: 574;
+}
+
 .w-3 {
   width: 0.75rem;
 }
@@ -820,6 +832,30 @@ video {
 
 .w-5 {
   width: 1.25rem;
+}
+
+.w-64 {
+  width: 16rem;
+}
+
+.w-72 {
+  width: 18rem;
+}
+
+.w-9 {
+  width: 2.25rem;
+}
+
+.w-\[461px\] {
+  width: 461px;
+}
+
+.w-\[1473px\] {
+  width: 1473px;
+}
+
+.w-\[1\] {
+  width: 1;
 }
 
 .grid-cols-3 {
@@ -994,6 +1030,10 @@ video {
   background-color: rgb(156 163 175 / var(--tw-bg-opacity));
 }
 
+.bg-\[url\] {
+  background-color: url;
+}
+
 .bg-opacity-80 {
   --tw-bg-opacity: 0.8;
 }
@@ -1002,8 +1042,20 @@ video {
   background-image: url('https://www.up.pt/portal/media/images/estudantes-icbas-lab-2024.format-jpeg.jpg');
 }
 
+.bg-\[url\(\'\'\)\] {
+  background-image: url('');
+}
+
+.bg-\[url\(\'https\:\/\/www\.up\.pt\/portal\/static\/images\/minerva_01\.png\'\)\] {
+  background-image: url('https://www.up.pt/portal/static/images/minerva_01.png');
+}
+
 .bg-cover {
   background-size: cover;
+}
+
+.bg-contain {
+  background-size: contain;
 }
 
 .bg-center {
@@ -1216,6 +1268,19 @@ video {
   font-size: 22px;
 }
 
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.text-\[51px\] {
+  font-size: 51px;
+}
+
+.text-\[52px\] {
+  font-size: 52px;
+}
+
 .font-semibold {
   font-weight: 600;
 }
@@ -1238,6 +1303,10 @@ video {
 
 .font-bold {
   font-weight: 700;
+}
+
+.font-thin {
+  font-weight: 100;
 }
 
 .text-gray-400 {

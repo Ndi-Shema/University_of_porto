@@ -798,6 +798,10 @@ video {
   height: 306px;
 }
 
+.h-\[3\] {
+  height: 3;
+}
+
 .w-3 {
   width: 0.75rem;
 }
@@ -912,6 +916,10 @@ video {
 
 .w-\[614px\] {
   width: 614px;
+}
+
+.w-\[584px\] {
+  width: 584px;
 }
 
 .grid-cols-3 {

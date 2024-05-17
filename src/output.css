@@ -562,6 +562,14 @@ video {
   position: relative;
 }
 
+.left-0 {
+  left: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
@@ -758,6 +766,38 @@ video {
   height: 574;
 }
 
+.h-full {
+  height: 100%;
+}
+
+.h-\[90px\] {
+  height: 90px;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
+.h-\[px\] {
+  height: px;
+}
+
+.h-\[385px\] {
+  height: 385px;
+}
+
+.h-\[5\] {
+  height: 5;
+}
+
+.h-\[587px\] {
+  height: 587px;
+}
+
+.h-\[306px\] {
+  height: 306px;
+}
+
 .w-3 {
   width: 0.75rem;
 }
@@ -858,8 +898,28 @@ video {
   width: 1;
 }
 
+.w-\[491px\] {
+  width: 491px;
+}
+
+.w-\[147\] {
+  width: 147;
+}
+
+.w-\[614\] {
+  width: 614;
+}
+
+.w-\[614px\] {
+  width: 614px;
+}
+
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .grid-rows-5 {
@@ -920,6 +980,10 @@ video {
 
 .gap-10 {
   gap: 2.5rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .space-y-24 > :not([hidden]) ~ :not([hidden]) {
@@ -1072,6 +1136,11 @@ video {
 
 .fill-none {
   fill: none;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .p-4 {
@@ -1368,6 +1437,15 @@ video {
 .text-gray-300 {
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
+.text-\[5\] {
+  color: 5;
+}
+
+.text-\[\#212529\] {
+  --tw-text-opacity: 1;
+  color: rgb(33 37 41 / var(--tw-text-opacity));
 }
 
 .underline {
